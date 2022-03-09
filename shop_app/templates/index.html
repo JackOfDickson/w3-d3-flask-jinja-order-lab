@@ -1,11 +1,12 @@
 <html>
     <head>
         <title>Bruce's Books</title>
+        <link rel="stylesheet" href="{{ url_for('static', filename='orders_page.css') }}">
     </head>
     <body>
-        <h1>Orders</h1>
+        <h1 class="header">Orders</h1>
         {% for order in orders %}
-        <div>
+        <div class="customer-order">
             <p>
                 <a href = '/orders/{{order.customer_id}}'>{{ order.customer_name}}</a> : {{ order.order_date }} : {{order.book_title}} : {{order.quantity}} : £{{order.book_price}} : £{{order.total_price}}
             </p>

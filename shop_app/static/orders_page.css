@@ -1,0 +1,18 @@
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0;
+}
+
+.header {
+    font-size: xx-large;
+    background-color: rgb(0, 204, 255);
+    color: rgb(24, 0, 133);
+    margin: 0;  
+    padding: 10px;
+}
+
+.customer-order {
+    border-color: gold;
+    border-style: groove;
+    margin-top: 5px;
+}
